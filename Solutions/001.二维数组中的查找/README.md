@@ -139,4 +139,5 @@ emplace_back  (C++11) |
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-Solution3.cpp | c++11 | ms | k | zouwx2cs
+Solution3.cpp | c++11 | 14ms | 1632k | zouwx2cs
+Solution4.cpp | c++11 | 13ms | 1500k | zouwx2cs
