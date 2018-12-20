@@ -21,7 +21,7 @@ Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
 Solution1.cpp | c++11 | 15ms | 1504k | zouwx2cs
 
-### 优化1 ###
+### 每行折半查找 ###
 - **解题思路**
 
 	每行折半查找
@@ -40,10 +40,10 @@ Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
 Solution2.cpp | c++11 | 10ms | 1376k | zouwx2cs
 
-### 优化2 ###
+### 二维分块查找 ###
 - 解题思路
 
-    二维折半查找，
+    二维分块查找，
     
 - 耗时
 - 时间复杂度
@@ -52,6 +52,8 @@ Solution2.cpp | c++11 | 10ms | 1376k | zouwx2cs
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
 Solution3.cpp | c++11 | ms | k | zouwx2cs
+
+
 
 ### 备注 ###
 #### c++ ####
@@ -125,3 +127,16 @@ emplace_back  (C++11) |
 ### 奇技淫巧 ###
 - 折半查找的时候把概率较高被选中的分支放前面，小概率放后面（比如==的情况）
 - 数据量大的时候折半查找的时候可以试试变为斐波那契查找
+
+### set查找 ###
+- 解题思路
+
+    先用二维数组里所有的元素建立RBTree或HashMap（set或unordered_set）
+    
+- 耗时
+- 时间复杂度
+- 空间复杂度
+
+Source Name | Language | Time | Memory | Contributor
+---|---|---|---|---
+Solution3.cpp | c++11 | ms | k | zouwx2cs
