@@ -56,7 +56,7 @@ Solution2.cpp | c++11 | 10ms | 1376k | zouwx2cs
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-Solution3.cpp | c++11 | 11ms | 1500k | zouwx2cs
+Solution5.cpp | c++11 | 11ms | 1500k | zouwx2cs
 
 
 
