@@ -1,5 +1,4 @@
-//运行时间：12ms
-//占用内存：1504k
+//运行时间（leetcode240）：1248ms
 class Solution {
 public:
     bool Find(int target, vector<vector<int> > array) {

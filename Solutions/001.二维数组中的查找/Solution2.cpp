@@ -1,5 +1,4 @@
-//运行时间：10ms
-//占用内存：1376k
+//运行时间（leetcode240）：360ms
 class Solution {
 private:
     bool FindInLine(int target, vector<int> &v, int left, int right)
