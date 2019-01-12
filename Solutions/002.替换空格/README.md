@@ -25,7 +25,7 @@ Solution1.cpp | c++11 | - | - | zouwx2cs
 #### c++ ####
 0. string Constructor
 
-- | -    
+构造方法 | 构造方法    
 ---|---
 default(1) | string();
 copy(2) | string (const string& str);
