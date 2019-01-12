@@ -19,4 +19,4 @@
 	
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-[Solution1.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/066.%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4/Solution1.cpp) | c++11 | - | - | zouwx2cs
+[Solution1.cpp](Solution1.cpp) | c++11 | - | - | zouwx2cs
