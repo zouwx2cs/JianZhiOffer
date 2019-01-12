@@ -19,7 +19,7 @@
 	
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-Solution1.cpp | c++11 | 15ms | 1504k | zouwx2cs
+[Solution1.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution1.cpp) | c++11 | - | - | zouwx2cs
 
 ### 每行折半查找 ###
 - **解题思路**
@@ -38,7 +38,7 @@ Solution1.cpp | c++11 | 15ms | 1504k | zouwx2cs
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-Solution2.cpp | c++11 | 10ms | 1376k | zouwx2cs
+[Solution2.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution2.cpp) | c++11 | - | - | zouwx2cs
 
 ### 二维分块查找（递归版） ###
 - 解题思路
@@ -56,9 +56,21 @@ Solution2.cpp | c++11 | 10ms | 1376k | zouwx2cs
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-Solution5.cpp | c++11 | 11ms | 1500k | zouwx2cs
+[Solution5.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution5.cpp) | c++11 | - | - | zouwx2cs
 
+### set查找 ###
+- 解题思路
 
+    先用二维数组里所有的元素建立RBTree或HashMap（set或unordered_set）
+    
+- 耗时
+- 时间复杂度
+- 空间复杂度
+
+Source Name | Language | Time | Memory | Contributor
+---|---|---|---|---
+[Solution3.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution3.cpp) | c++11 | - | - | zouwx2cs
+[Solution4.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution4.cpp) | c++11 | - | - | zouwx2cs
 
 ### 备注 ###
 #### c++ ####
@@ -133,16 +145,3 @@ emplace_back  (C++11) | -
 - 折半查找的时候把概率较高被选中的分支放前面，小概率放后面（比如==的情况）
 - 数据量大的时候折半查找的时候可以试试变为斐波那契查找
 
-### set查找 ###
-- 解题思路
-
-    先用二维数组里所有的元素建立RBTree或HashMap（set或unordered_set）
-    
-- 耗时
-- 时间复杂度
-- 空间复杂度
-
-Source Name | Language | Time | Memory | Contributor
----|---|---|---|---
-Solution3.cpp | c++11 | 14ms | 1632k | zouwx2cs
-Solution4.cpp | c++11 | 13ms | 1500k | zouwx2cs
