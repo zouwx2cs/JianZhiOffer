@@ -72,4 +72,4 @@ Source Name | Language | Time | Memory | Contributor
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-[Solution4.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/050.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/Solution4.cppp) | c++11 | - | - | zouwx2cs
+[Solution4.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/050.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/Solution4.cpp) | c++11 | - | - | zouwx2cs
