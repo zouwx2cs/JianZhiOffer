@@ -38,7 +38,7 @@ Source Name | Language | Time | Memory | Contributor
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-[Solution2.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution2.cpp) | c++11 | - | - | zouwx2cs
+[Solution2.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/050.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/Solution2.cpp) | c++11 | - | - | zouwx2cs
 
 ### hash set ###
 - 解题思路
@@ -55,17 +55,21 @@ Source Name | Language | Time | Memory | Contributor
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-[Solution3.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution3.cpp) | c++11 | - | - | zouwx2cs
+[Solution3.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/050.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/Solution3.cpp) | c++11 | - | - | zouwx2cs
 
 ### 数组原地交换 ###
 - 解题思路
 
+遍历数组，如果当前元素不等于对应下标值，则循环把这个元素和他对应下标的位置上的元素交换，直到当前元素等于对应下标值，找到的条件是，如果这个元素本来应该在的位置上已经有了一个相等的数字
     
-    
-- 耗时
 - 时间复杂度
+
+	**O(n)** ，表O(1)，遍历O(n)
+
 - 空间复杂度
+
+	**O(1)**
 
 Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
-[Solution5.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/001.%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE/Solution5.cpp) | c++11 | - | - | zouwx2cs
+[Solution4.cpp](https://github.com/zouwx2cs/JianZhiOffer/blob/master/Solutions/050.%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97/Solution4.cppp) | c++11 | - | - | zouwx2cs
