@@ -21,6 +21,44 @@ Source Name | Language | Time | Memory | Contributor
 ---|---|---|---|---
 Solution1.cpp | c++11 | - | - | zouwx2cs
 
+### 傻瓜解法 ###
+- **解题思路**
+
+	用字符串查找函数找到每一个" "，替换成"%20"，后面的字符往后面移动
+	
+- **时间复杂度**
+
+	**O(m\*n)**， 设字符串长度、需要替换的次数分别为m、n 
+
+- **空间复杂度**
+
+	**O(1)**
+
+- **提交版本**
+	
+Source Name | Language | Time | Memory | Contributor
+---|---|---|---|---
+Solution2.cpp | c++11 | - | - | zouwx2cs
+
+### O(n)解法 ###
+- **解题思路**
+
+	先扫一趟统计有多少个空格，然后多开辟空格数*2的存储空间，两个指针，把字符往后拷贝，碰到空格就拷贝%20
+	
+- **时间复杂度**
+
+	**O(n)**， 设字符串长度、需要替换的次数分别为m、n 
+
+- **空间复杂度**
+
+	**O(1)**
+
+- **提交版本**
+	
+Source Name | Language | Time | Memory | Contributor
+---|---|---|---|---
+Solution3.cpp | c++11 | - | - | zouwx2cs
+
 ### 备注 ###
 #### c++ ####
 0. string Constructor
